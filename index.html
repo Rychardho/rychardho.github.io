@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>rychardho_</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="ayam-container">
+            <div class="bebek"><img src="img1/10.jpg" alt=""></div>
+            </div>
+        <h1>Photo Of My Cute Cat</h1>
+        <p>rychardho</p>
+    <div class="imagee-container">
+        <a href="https://www.instagram.com/rychardho_?igsh=MTJ1MDdkOHc2dG82bA==">
+            <div class="imageee"><img src="img1/ig1.png" alt=""></div> 
+        </a>
+    </div>
+
+    <div class="image-container">
+        <div class="image"><img src="img1/1.jpg" alt=""></div>
+        <div class="image"><img src="img1/2.jpg" alt=""></div>
+        <div class="image"><img src="img1/3.jpg" alt=""></div>
+        <div class="image"><img src="img1/4.jpg" alt=""></div>
+        <div class="image"><img src="img1/5.jpg" alt=""></div>
+        <div class="image"><img src="img1/6.jpg" alt=""></div>
+        <div class="image"><img src="img1/7.jpg" alt=""></div>
+        <div class="image"><img src="img1/8.jpg" alt=""></div>
+        <div class="image"><img src="img1/9.jpg" alt=""></div>
+        <div class="image"><img src="img1/10.jpg" alt=""></div>
+        <div class="image"><img src="img1/11.jpg" alt=""></div>
+        <div class="image"><img src="img1/12.jpg" alt=""></div>
+        <div class="image"><img src="img1/13.jpg" alt=""></div>
+        <div class="image"><img src="img1/14.jpg" alt=""></div>
+        <div class="image"><img src="img1/15.jpg" alt=""></div>
+        <div class="image"><img src="img1/16.jpg" alt=""></div>
+                
+    </div>
+    <div class="footer">
+        <h2> Terima Kasih</h2>
+
+    </div>
+    <div class="popup-image">
+        <span>&times;</span>
+        <img src="img1/1.jpg">
+    </div>
+
+    </div>
+    <script>
+
+    document.querySelectorAll('.image-container img').forEach(image =>{
+        image.onclick = () =>{
+            document.querySelector('.popup-image').style.display = 'block';
+            document.querySelector('.popup-image img').src = image.getAttribute('src');
+
+        }
+    });
+    document.querySelector('.popup-image span').onclick = () =>{
+        document.querySelector('.popup-image').style.display = 'none';    
+    }
+
+    </script>
+</body>
+</html>
