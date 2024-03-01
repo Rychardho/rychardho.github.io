@@ -3,7 +3,7 @@ body{
     background-image: url(img1/foto.png);
     background-repeat: no-repeat;
     background-position: top center;
-    background-size:cover 500px;   
+    background-size:cover 450px;   
 }
 *{
 
@@ -87,8 +87,8 @@ body{
     padding: 10px;
 }
 .container .image-container .image{
-    height: 170px;
-    width: 170px;
+    height: 150px;
+    width: 150px;
     border: 10px solid #fff;
     box-shadow:0 5px 15px rgba(0, 0, 0, .1);
     overflow: hidden;
